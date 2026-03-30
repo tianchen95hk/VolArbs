@@ -1,0 +1,27 @@
+Cross-Vol Optimization Summary (BTC/ETH)
+Generated (UTC): 2026-03-30T08:21:57Z
+
+Run Config:
+  - max_trials: 20
+  - top_n: 5
+  - seed: 42
+  - use_cache: True
+  - selection_rule: best_score
+
+Best Params:
+  - spread_lookback: 60.0
+  - zscore_entry: 1.35
+  - zscore_exit: 0.2
+  - spread_min_pts: 2.0
+  - holding_days_max: 21.0
+  - capital_fraction: 0.2
+  - dte_target: 28.0
+  - regime_lookback: 45.0
+  - regime_zscore_max: 1.2
+
+Best Params Validation (per period):
+  - FY25 [2025-01-01~2025-12-31] | total=-1.364% ann=-1.364% sharpe=-0.112 maxdd=-11.755% trades=6
+
+Saved ranked_all.csv: /Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/ranked_all.csv
+Saved ranked_top.csv: /Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/ranked_top.csv
+Saved summary.json: /Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/summary.json

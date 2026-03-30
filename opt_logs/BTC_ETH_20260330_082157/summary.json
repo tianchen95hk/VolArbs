@@ -1,0 +1,201 @@
+{
+  "generated_at_utc": "2026-03-30T08:21:57Z",
+  "pair": "BTC/ETH",
+  "run_config": {
+    "max_trials": 20,
+    "top_n": 5,
+    "seed": 42,
+    "use_cache": true,
+    "selection_rule": "best_score"
+  },
+  "periods": {
+    "FY25": {
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31"
+    }
+  },
+  "top_n": 5,
+  "best_params": {
+    "spread_lookback": 60.0,
+    "zscore_entry": 1.35,
+    "zscore_exit": 0.2,
+    "spread_min_pts": 2.0,
+    "holding_days_max": 21.0,
+    "capital_fraction": 0.2,
+    "dte_target": 28.0,
+    "regime_lookback": 45.0,
+    "regime_zscore_max": 1.2
+  },
+  "best_period_metrics": [
+    {
+      "period": "FY25",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "total_ret_pct": -1.36378732251623,
+      "ann_ret_pct": -1.36378732251623,
+      "sharpe": -0.11248891161915683,
+      "max_dd_pct": -11.754937537683885,
+      "n_trades": 6
+    }
+  ],
+  "refined_pool": {
+    "spread_lookback": [
+      60,
+      75
+    ],
+    "zscore_entry": [
+      1.2,
+      1.35,
+      1.5
+    ],
+    "zscore_exit": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "spread_min_pts": [
+      2.0,
+      3.0,
+      4.0
+    ],
+    "holding_days_max": [
+      14,
+      21,
+      28
+    ],
+    "capital_fraction": [
+      0.12,
+      0.2,
+      0.24
+    ],
+    "dte_target": [
+      14,
+      28
+    ],
+    "regime_lookback": [
+      20,
+      45
+    ],
+    "regime_zscore_max": [
+      1.2,
+      1.5
+    ]
+  },
+  "top_rows": [
+    {
+      "score": -0.10526824233009749,
+      "mean_sharpe": -0.11248891161915683,
+      "mean_ann_ret": -0.0136378732251623,
+      "worst_total_ret": -0.0136378732251623,
+      "worst_max_dd": 0.11754937537683885,
+      "avg_trade_win": 0.6666666666666666,
+      "avg_trades": 6.0,
+      "spread_lookback": 60,
+      "zscore_entry": 1.35,
+      "zscore_exit": 0.2,
+      "spread_min_pts": 2.0,
+      "holding_days_max": 21,
+      "capital_fraction": 0.2,
+      "dte_target": 28,
+      "regime_lookback": 45,
+      "regime_zscore_max": 1.2,
+      "mean_ann_ret_pct": -1.36378732251623,
+      "worst_total_ret_pct": -1.36378732251623,
+      "worst_max_dd_pct": 11.754937537683885,
+      "avg_trade_win_pct": 66.66666666666666
+    },
+    {
+      "score": -0.17857392470747505,
+      "mean_sharpe": -0.1097014925944075,
+      "mean_ann_ret": -0.025829900843145293,
+      "worst_total_ret": -0.025829900843145293,
+      "worst_max_dd": 0.1816942664464175,
+      "avg_trade_win": 0.36363636363636365,
+      "avg_trades": 11.0,
+      "spread_lookback": 75,
+      "zscore_entry": 1.2,
+      "zscore_exit": 0.4,
+      "spread_min_pts": 2.0,
+      "holding_days_max": 14,
+      "capital_fraction": 0.24,
+      "dte_target": 28,
+      "regime_lookback": 45,
+      "regime_zscore_max": 1.5,
+      "mean_ann_ret_pct": -2.5829900843145293,
+      "worst_total_ret_pct": -2.5829900843145293,
+      "worst_max_dd_pct": 18.16942664464175,
+      "avg_trade_win_pct": 36.36363636363637
+    },
+    {
+      "score": -0.2811414157236535,
+      "mean_sharpe": -0.25176061170145025,
+      "mean_ann_ret": -0.04777326709592611,
+      "worst_total_ret": -0.04777326709592611,
+      "worst_max_dd": 0.21378509901661968,
+      "avg_trade_win": 0.5555555555555556,
+      "avg_trades": 9.0,
+      "spread_lookback": 75,
+      "zscore_entry": 1.2,
+      "zscore_exit": 0.3,
+      "spread_min_pts": 2.0,
+      "holding_days_max": 21,
+      "capital_fraction": 0.2,
+      "dte_target": 14,
+      "regime_lookback": 20,
+      "regime_zscore_max": 1.2,
+      "mean_ann_ret_pct": -4.777326709592611,
+      "worst_total_ret_pct": -4.777326709592611,
+      "worst_max_dd_pct": 21.378509901661968,
+      "avg_trade_win_pct": 55.55555555555556
+    },
+    {
+      "score": -0.3244643134712889,
+      "mean_sharpe": -0.3108269633778243,
+      "mean_ann_ret": -0.05738602074705346,
+      "worst_total_ret": -0.05738602074705346,
+      "worst_max_dd": 0.15215998410765863,
+      "avg_trade_win": 0.375,
+      "avg_trades": 8.0,
+      "spread_lookback": 75,
+      "zscore_entry": 1.35,
+      "zscore_exit": 0.2,
+      "spread_min_pts": 4.0,
+      "holding_days_max": 14,
+      "capital_fraction": 0.2,
+      "dte_target": 28,
+      "regime_lookback": 45,
+      "regime_zscore_max": 1.5,
+      "mean_ann_ret_pct": -5.738602074705346,
+      "worst_total_ret_pct": -5.738602074705346,
+      "worst_max_dd_pct": 15.215998410765863,
+      "avg_trade_win_pct": 37.5
+    },
+    {
+      "score": -0.3299753681042273,
+      "mean_sharpe": -0.40812775526020667,
+      "mean_ann_ret": -0.03771486209711239,
+      "worst_total_ret": -0.03771486209711239,
+      "worst_max_dd": 0.11816592009329985,
+      "avg_trade_win": 0.3333333333333333,
+      "avg_trades": 6.0,
+      "spread_lookback": 75,
+      "zscore_entry": 1.5,
+      "zscore_exit": 0.3,
+      "spread_min_pts": 3.0,
+      "holding_days_max": 28,
+      "capital_fraction": 0.12,
+      "dte_target": 14,
+      "regime_lookback": 20,
+      "regime_zscore_max": 1.5,
+      "mean_ann_ret_pct": -3.771486209711239,
+      "worst_total_ret_pct": -3.771486209711239,
+      "worst_max_dd_pct": 11.816592009329984,
+      "avg_trade_win_pct": 33.33333333333333
+    }
+  ],
+  "files": {
+    "ranked_all_csv": "/Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/ranked_all.csv",
+    "ranked_top_csv": "/Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/ranked_top.csv",
+    "summary_txt": "/Users/martin/Claude Code/option_vol/cross_vol/opt_logs/BTC_ETH_20260330_082157/summary.txt"
+  }
+}
